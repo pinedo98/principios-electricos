@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electrónica digital</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="assets/images/favicon-bolt.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">  
+      
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body class="body-blue">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="home.html">
+                            <span aria-hidden="true" class="icon fas fa-bolt"></span>
+                            <span class="text-highlight">Principios</span><span class="text-bold">Eléctricos</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="home.html">Inicio</a></li>
+
+
+                    <li class="breadcrumb-item active">Unidad 3</li>
+
+
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-left">
+                    <h1 class="doc-title"><i class="icon fas fa-chart-area"></i> Electrónica digital <t></h1>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+
+                            <section id="compuertas-section" class="doc-section">
+                                <h2 class="section-title">Compuertas lógicas</h2>
+                                <div class="section-block">
+
+                                    <div id="noa-section"  class="section-block">
+                                        <h3 class="block-title">NOT, OR y AND</h3>
+                                        <p>Una puerta lógica, o compuerta lógica, es un dispositivo electrónico con una funciónbooleana. Suman, multiplican, niegan o afirman, incluyen o excluyen según sus propiedades lógicas. Se pueden aplicar a tecnología electrónica, eléctrica, mecánica, hidráulica y neumática. Son circuitos de conmutación integrados en un chip. Claude Elwood Shannon experimentaba con relés o interruptores electromagnéticos para conseguir las condiciones de cada compuerta lógica, por ejemplo, para la función booleana Y (AND) colocaba interruptores en circuito serie, ya que con uno solo de éstos que tuviera la condición «abierto», la salida de la compuerta Y sería = 0, mientras que para la implementación de una compuerta O (OR), la conexión de los interruptores tiene una configuración en circuito paralelo. La tecnología microelectrónica actual permite la elevada integración de transistoresactuando como conmutadores en redes lógicas dentro de un pequeño circuito integrado. El chip de la CPU es una de las máximas expresiones de este avance tecnológico. En nanotecnología se está desarrollando el uso de una compuerta lógica molecular, que haga posible la miniaturización de circuitos.</p>
+                                        <p><img src="https://2.bp.blogspot.com/-vSfH-Bp5Xj0/WSSgSiqBcaI/AAAAAAAAAcE/DUfrziNPCtwUu0xDk6sg7Itg9G_dXgEXQCLcB/s400/999.png" width="400" height="235" border="0" /></p>
+
+                                    </div><!--//section-block-->
+
+                                    <div id="boole-section"  class="section-block">
+                                        <h3 class="block-title">Álgebra de Boole</h2>
+                                        <p>1. Propiedad de cierre.<br />Para un conjunto s se dice que es cerrado para un operador binario si para cada elemento de S el operador binario especifica una regla para obtener un elemento &uacute;nico de S.<br />Para el conjunto N = {1,2,3,4,&hellip;} es cerrado con respecto al operador binario (+) por las reglas de la adici&oacute;n aritm&eacute;tica, ya que para que cualquier elemento a,b pertenecientes a N por la operaci&oacute;n a + b = c el conjunto de los n&uacute;meros naturales no esta cerrado con respecto al operador binario (-) por la regla de la resta aritm&eacute;tica, debido a que 2-3 = -1 y 2,3 pertenecen a N pero -1 no pertenece a N.</p>
+                                        <p>2. Ley asociativa.<br />El operador binario (*) es un conjunto S es asociativo siempre que x*y*z = x*(y*z) para toda x, y pertenecientes a S.</p>
+                                        <p>3. Ley conmutativa.<br />Un operador binario (*) para un conjunto S es conmutativo siempre que: x*y = y*x para toda x,y pertenecientes a S.</p>
+                                        <p>4. Elemento identidad.<br />El conjunto S tendr&aacute; un elemento identidad multiplicativo &ldquo;identidad (*)&rdquo; en S si existe un e perteneciente a S con la propiedad e*x = x*e =e para cada x pertenecientes a S.</p>
+                                        <p>5. Inversa.<br />El conjunto S tiene un elemento identidad (e) con respecto al operador (*) siempre que para cada x perteneciente a S exista un elemento y perteneciente a S tal que x*y=e.</p>
+                                        <p>6. Ley distributiva.<br />Si el operador (*) y el operador (.), son operadores binarios de S, (*) se dice que es distributivo sobre (.).</p>
+                                    </div><!--//section-block-->
+
+                                </div>
+                            </section><!--//doc-section-->
+
+
+                            <section id="logica-section" class="section-block">
+                                <h2 class="section-title">Lógica secuencial</h2>
+                                        <p>La Lógica Secuencial es el Método de ordenamiento de acciones, razonamiento, y expresión de la automatización de maquinaria, equipos y procesos. Y su interrelación con el hombre. Esto nos da por consiguiente los binomios, hombremáquina, hombre-proceso. La lógica secuencial es un tipo de circuito de lógica que salida dependa no sólo de la actual entrada pero también de la historia de la entrada. Esto está en contraste con lógica combinational, del que salida es una función, y solamente de, la actual entrada. Es decir la lógica secuencial tiene almacenaje (memoria) mientras que la lógica combinational no. 
+                                        </p>
+
+                                    <div id="flipflop-section"  class="section-block">
+                                        <h3 class="block-title">FLIP-FLOP</h2>
+                                        <p>Un flip-flop es un circuito digital que tiene dos salidas Q y Q`, las cuales siempre se encuentran en estados opuestos. Si Q=1 entonces Q`=0 y se dice que el flipflop está inicializado (set). Si Q = 0 entonces Q`=1 y se dice que el flip-flop está reinicializado (reset), inactivo o borrado . Existen varios tipos de flip-flops, y las entradas de control cambian con cada tipo. Los niveles lógicos en las entradas de los flip-flops determinan el estado de las salidas de acuerdo con la tabla de verdad del flip-flop. A diferencia de las compuertas estudiadas hasta esta momento, el flip-flop puede en algunos estados mantener su estado de salida (encendido o apagado) aún después de que las señales de entrada que produjeron el estado de salida cambien. De esta manera el flip-flop puede guardar un bit de información</p>
+                                        <p><img src="https://3.bp.blogspot.com/-aYkZRdR9yb4/WS4EzgCIGRI/AAAAAAAAAcw/Anyz6KjeHQMc17t4dYOCwZDqzi8aM2hnQCLcB/s320/descarga.png" width="320" height="220" border="0" data-original-height="176" data-original-width="256" /></p>
+                                    </div><!--//section-block-->
+
+                            </section><!--//doc-section-->
+
+                            <section id="555-section" class="section-block">
+                                <h2 class="section-title">Circuito integrado 555</h2>
+                                        <p>El temporizador&nbsp;<strong>IC 555</strong>&nbsp;es un&nbsp;<a title="Circuito integrado" href="https://es.wikipedia.org/wiki/Circuito_integrado">circuito integrado</a>&nbsp;(chip) que se utiliza en la generaci&oacute;n de temporizadores, pulsos y oscilaciones. El 555 puede ser utilizado para proporcionar retardos de tiempo, como un oscilador, y como un circuito integrado&nbsp;<a class="mw-redirect" title="Flip flop" href="https://es.wikipedia.org/wiki/Flip_flop">flip flop</a>. Sus derivados proporcionan hasta cuatro circuitos de sincronizaci&oacute;n en un solo paquete.</p>
+                                        <p>Fue introducido en 1971 por&nbsp;<a title="Signetics" href="https://es.wikipedia.org/wiki/Signetics">Signetics</a>, el 555 sigue siendo de uso generalizado debido a su facilidad de uso, precio bajo y la estabilidad. Muchas empresas los fabrican en versi&oacute;n de&nbsp;<a title="Transistor de uni&oacute;n bipolar" href="https://es.wikipedia.org/wiki/Transistor_de_uni%C3%B3n_bipolar">transistores bipolares</a>&nbsp;y tambi&eacute;n en&nbsp;<a class="mw-redirect" title="CMOS" href="https://es.wikipedia.org/wiki/CMOS">CMOS</a>&nbsp;de baja potencia. A partir de 2003, se estimaba que mil millones de unidades se fabricaban cada a&ntilde;o. Este circuito suele ser utilizado para trabajos sencillos como trabajos escolares, debido a su bajo costo y facilidad de trabajar con &eacute;l.</p>
+                            </section><!--//doc-section-->
+
+
+                          
+                            <section id="extra-section" class="doc-section">
+                                <h2 class="section-title">Extra</h2>
+                                <div class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h6>Electrónica Analógica</h6>
+                                            <!-- 16:9 aspect ratio -->
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mZVP0m9D7MQ" frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+	                                <a class="nav-link scrollto" href="#compuertas-section">Compuertas lógicas</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#noa-section">NOT, OR y AND</a>
+                                        <a class="nav-link scrollto" href="#boole-section">Álgebra de Boole</a>
+                                    </nav><!--//nav-->
+                                    
+	                                <a class="nav-link scrollto" href="#logica-section">Lógica secuencial</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#flipflop-section">FLIP-FLOP</a> 
+                                    </nav><!--//nav-->
+	                                
+                                    <a class="nav-link scrollto" href="#555-section">Chip 555</a>
+
+	                                <a class="nav-link scrollto" href="#extra-section">Extra</a>
+	                            </nav><!--//doc-menu-->
+	                        
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+        
+    </div><!--//page-wrapper-->
+    
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Desarrollada por <a href="https://www.linkedin.com/in/fernando-josue-pinedo-a85398128/" target="_blank">Fernando J. Pinedo</a>; diseñada por <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</small>
+            
+        </div><!--//container-->
+    </footer><!--//footer-->
+    
+     
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    
+</body>
+</html> 
+
